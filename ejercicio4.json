@@ -1,0 +1,122 @@
+{
+    "?xml-stylesheet": "type=\"text/css\" href=\"ejercicio4.css\" ",
+    "registrosemanal": {
+      "zona": [
+        {
+          "-id": "Occidental",
+          "dia": [
+            {
+              "-name": "Lunes",
+              "tempmenor": "24",
+              "tempmedia": "28",
+              "tempmayor": "33"
+            },
+            {
+              "-name": "Martes",
+              "tempmenor": "23",
+              "tempmedia": "29",
+              "tempmayor": "32"
+            },
+            {
+              "-name": "Miercoles",
+              "tempmenor": "24",
+              "tempmedia": "27",
+              "tempmayor": "34"
+            },
+            {
+              "-name": "Jueves",
+              "tempmenor": "21",
+              "tempmedia": "26",
+              "tempmayor": "30"
+            },
+            {
+              "-name": "Viernes",
+              "tempmenor": "24",
+              "tempmedia": "27",
+              "tempmayor": "32"
+            }
+          ]
+        },
+        {
+          "-id": "Central",
+          "dia": [
+            {
+              "-name": "Lunes",
+              "tempmenor": "24",
+              "tempmedia": "28",
+              "tempmayor": "33"
+            },
+            {
+              "-name": "Martes",
+              "tempmenor": "20",
+              "tempmedia": "28",
+              "tempmayor": "31"
+            },
+            {
+              "-name": "Miercoles",
+              "tempmenor": "22",
+              "tempmedia": "27",
+              "tempmayor": "34"
+            },
+            {
+              "-name": "Jueves",
+              "tempmenor": "24",
+              "tempmedia": "28",
+              "tempmayor": "35"
+            },
+            {
+              "-name": "Viernes",
+              "tempmenor": "23",
+              "tempmedia": "27",
+              "tempmayor": "33"
+            }
+          ]
+        },
+        {
+          "-id": "Oriental",
+          "dia": [
+            {
+              "-name": "Lunes",
+              "tempmenor": "24",
+              "tempmedia": "28",
+              "tempmayor": "33"
+            },
+            {
+              "-name": "Martes",
+              "tempmenor": "27",
+              "tempmedia": "30",
+              "tempmayor": "35"
+            },
+            {
+              "-name": "Miercoles",
+              "tempmenor": "29",
+              "tempmedia": "32",
+              "tempmayor": "36"
+            },
+            {
+              "-name": "Jueves",
+              "tempmenor": "24",
+              "tempmedia": "28",
+              "tempmayor": "33"
+            },
+            {
+              "-name": "Viernes",
+              "tempmenor": "23",
+              "tempmedia": "27",
+              "tempmayor": "33"
+            }
+          ]
+        }
+      ],
+      "identificador": {
+        "menor": "Temperatura menor: ",
+        "promedio": "Temperatura promedio: ",
+        "maxima": "Temperatura máxima: "
+      },
+      "color": {
+        "min": "111",
+        "prom": "222",
+        "max": "333"
+      }
+    }
+  }
