@@ -4,5 +4,12 @@ zona[id]::before{content:attr(id);color:green;font-weight:bold;font-size:1cm;dis
 dia[name]::before{content:attr(name);color:blue;display:block;}
 dia{display:block;text-align:center; padding:0.5em;font-size:1.5em; margin-bottom:0.5em;}
 tempmenor{color:green;}
-tempmedia{color:yellow;}
+tempmedia{color:rgb(179, 136, 73);}
 tempmayor{color:red;}
+identificador{padding: 2.0em;}
+menor, promedio, maxima{display: block; font-weight: bold; color: darkblue; font-size: 0.5cm; margin-bottom: 0.1em;}
+color{padding: 2em;}
+min, max, prom{display: block; font-weight: bold; font-size: 0.5cm; margin-bottom: 0.1em;}
+min{color: green; background-color: green;}
+max{color: red; background-color: red;}
+prom{color:rgb(179, 136, 73); background-color: rgb(179, 136, 73);}

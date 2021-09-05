@@ -8,24 +8,24 @@
       <tempmayor>33</tempmayor>
     </dia>
     <dia name="Martes">
-      <tempmenor>24</tempmenor>
-      <tempmedia>28</tempmedia>
-      <tempmayor>33</tempmayor>
+      <tempmenor>23</tempmenor>
+      <tempmedia>29</tempmedia>
+      <tempmayor>32</tempmayor>
     </dia>
     <dia name="Miercoles">
       <tempmenor>24</tempmenor>
-      <tempmedia>28</tempmedia>
-      <tempmayor>33</tempmayor>
+      <tempmedia>27</tempmedia>
+      <tempmayor>34</tempmayor>
     </dia>
     <dia name="Jueves">
-      <tempmenor>24</tempmenor>
-      <tempmedia>28</tempmedia>
-      <tempmayor>33</tempmayor>
+      <tempmenor>21</tempmenor>
+      <tempmedia>26</tempmedia>
+      <tempmayor>30</tempmayor>
     </dia>
     <dia name="Viernes">
       <tempmenor>24</tempmenor>
-      <tempmedia>28</tempmedia>
-      <tempmayor>33</tempmayor>
+      <tempmedia>27</tempmedia>
+      <tempmayor>32</tempmayor>
     </dia>
   </zona>
   <zona id="Central">
@@ -35,23 +35,23 @@
       <tempmayor>33</tempmayor>
     </dia>
     <dia name="Martes">
-      <tempmenor>24</tempmenor>
+      <tempmenor>20</tempmenor>
       <tempmedia>28</tempmedia>
-      <tempmayor>33</tempmayor>
+      <tempmayor>31</tempmayor>
     </dia>
     <dia name="Miercoles">
-      <tempmenor>24</tempmenor>
-      <tempmedia>28</tempmedia>
-      <tempmayor>33</tempmayor>
+      <tempmenor>22</tempmenor>
+      <tempmedia>27</tempmedia>
+      <tempmayor>34</tempmayor>
     </dia>
     <dia name="Jueves">
       <tempmenor>24</tempmenor>
       <tempmedia>28</tempmedia>
-      <tempmayor>33</tempmayor>
+      <tempmayor>35</tempmayor>
     </dia>
     <dia name="Viernes">
-      <tempmenor>24</tempmenor>
-      <tempmedia>28</tempmedia>
+      <tempmenor>23</tempmenor>
+      <tempmedia>27</tempmedia>
       <tempmayor>33</tempmayor>
     </dia>
   </zona>
@@ -62,14 +62,14 @@
       <tempmayor>33</tempmayor>
     </dia>
     <dia name="Martes">
-      <tempmenor>24</tempmenor>
-      <tempmedia>28</tempmedia>
-      <tempmayor>33</tempmayor>
+      <tempmenor>27</tempmenor>
+      <tempmedia>30</tempmedia>
+      <tempmayor>35</tempmayor>
     </dia>
     <dia name="Miercoles">
-      <tempmenor>24</tempmenor>
-      <tempmedia>28</tempmedia>
-      <tempmayor>33</tempmayor>
+      <tempmenor>29</tempmenor>
+      <tempmedia>32</tempmedia>
+      <tempmayor>36</tempmayor>
     </dia>
     <dia name="Jueves">
       <tempmenor>24</tempmenor>
@@ -77,9 +77,19 @@
       <tempmayor>33</tempmayor>
     </dia>
     <dia name="Viernes">
-      <tempmenor>24</tempmenor>
-      <tempmedia>28</tempmedia>
+      <tempmenor>23</tempmenor>
+      <tempmedia>27</tempmedia>
       <tempmayor>33</tempmayor>
     </dia>
   </zona>
+  <identificador>
+    <menor>Temperatura menor: </menor>
+    <promedio>Temperatura promedio: </promedio>
+    <maxima>Temperatura máxima: </maxima>
+  </identificador>
+  <color>
+    <min>111</min>
+    <prom>222</prom>
+    <max>333</max>
+  </color>
 </registrosemanal>
