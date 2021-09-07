@@ -1,62 +1,76 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="ejercicio6.css" ?>
+<?xml-stylesheet type="text/css" href="../css/ejercicio6.css" ?>
 <inscripcion>
+
     <titulo>Inscripción de Materias </titulo>
-    <student id="1">
+ 
+    <student id="1.">
         <nombre>Andres</nombre>
         <apellido>Henriquez</apellido>
-        <carnet>hg19010</carnet>
+        <carnet>HG19010</carnet>
         <listado name="Materias">
             <materia name="Inteligencia Artificial">
-                <teo> Martes 8 p.m. </teo>
-                <lab> Miércoles 6 p.m. </lab>
+                <codigo cod="INA115"></codigo>
+                <teo cont="Teorico"> Martes 8 p.m. </teo>
+                <lab cont="Laboratorio"> Miércoles 6 p.m. </lab>
             </materia>
             <materia name="Internet de las cosas">
-                <teo> Lunes 6 p.m. </teo>
-                <lab> Jueves 1 p.m. </lab>
+            <codigo cod="INC115"></codigo>
+                <teo cont="Teorico"> Lunes 6 p.m. </teo>
+                <lab cont="Laboratorio"> Jueves 1 p.m. </lab>
             </materia>
             <materia name="Análisis de datos">
-                <teo> Viernes 8 p.m. </teo>
-                <lab> Sábado 8 a.m. </lab>
+            <codigo cod="AND115"></codigo>
+                <teo cont="Teorico"> Viernes 8 p.m. </teo>
+                <lab cont="Laboratorio"> Sábado 8 a.m. </lab>
             </materia>
         </listado>
     </student>
-    <student id="2">
+    
+    <student id="2.">
         <nombre>Fátima</nombre>
         <apellido>Valencia</apellido>
         <carnet>AV19012</carnet>
         <listado name="Materias">
             <materia name="Criptomonedas">
-                <teo> Miércoles a p.m. </teo>
-                <lab> Domingo 6 p.m. </lab>
+            <codigo cod="CRI115"></codigo>
+                <teo cont="Teorico"> Miércoles a p.m. </teo>
+                <lab cont="Laboratorio"> Domingo 6 p.m. </lab>
             </materia>
             <materia name="Diseño web">
-                <teo> Lunes 6 p.m. </teo>
-                <lab> Jueves 1 p.m. </lab>
+            <codigo cod="DIW115"></codigo>
+                <teo cont="Teorico"> Lunes 6 p.m. </teo>
+                <lab cont="Laboratorio"> Jueves 1 p.m. </lab>
             </materia>
             <materia name="Base de datos">
-                <teo> Viernes 8 p.m. </teo>
-                <lab> Sábado 8 a.m. </lab>
+            <codigo cod="BDD115"></codigo>
+                <teo cont="Teorico"> Viernes 8 p.m. </teo>
+                <lab cont="Laboratorio"> Sábado 8 a.m. </lab>
             </materia>
         </listado>
     </student>
-    <student id="3">
+    
+    <student id="3.">
         <nombre>Edwin</nombre>
         <apellido>Quintanilla</apellido>
         <carnet>BQ18002</carnet>
         <listado name="Materias">
             <materia name="Animación Web">
-                <teo> Martes 8 p.m. </teo>
-                <lab> Miércoles 6 p.m. </lab>
+            <codigo cod="ANW115"></codigo>
+                <teo cont="Teorico"> Martes 8 p.m. </teo>
+                <lab cont="Laboratorio"> Miércoles 6 p.m. </lab>
             </materia>
             <materia name="Robótica">
-                <teo> Lunes 6 p.m. </teo>
-                <lab> Jueves 11 a.m. </lab>
+            <codigo cod="ROB115"></codigo>
+                <teo cont="Teorico"> Lunes 6 p.m. </teo>
+                <lab cont="Laboratorio"> Jueves 11 a.m. </lab>
             </materia>
             <materia name="Teoría de Sistemas">
-                <teo> Viernes 8 p.m. </teo>
-                <lab> Sábado 8 a.m. </lab>
+            <codigo cod="TES115"></codigo>
+                <teo cont="Teorico"> Viernes 8 p.m. </teo>
+                <lab cont="Laboratorio"> Sábado 8 a.m. </lab>
             </materia>
         </listado>
     </student>
+    
 </inscripcion>

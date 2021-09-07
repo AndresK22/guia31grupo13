@@ -1,0 +1,15 @@
+inscripcion {background-color:lightblue; display:block;}
+titulo {display:block; padding: 2em 8em;font-size:x-large; text-align:center; font-weight:bold;}
+student {display:block; padding: 1em 4em; font-weight:bold}
+student[id]::before{content:attr(id);color:blue;font-weight:normal;font-size:11;display:inline;}
+
+listado {display:block;}
+listado[name]::before{content:attr(name);color:purple;font-weight:bold;display:block;}
+
+materia[name]::before{content:attr(name);color:blue;font-weight:bold;display:block;}
+codigo[cod]::after{content:attr(cod);color:blue;font-weight:bold;display:block;}
+
+teo[cont]::before{content:attr(cont);color:yellow;font-weight:bold;display:inline;}
+lab[cont]::before{content:attr(cont);color:yellow;font-weight:bold;display:inline;}
+
+materia{display:block; padding:0.5em; margin-bottom:0.5em;}
