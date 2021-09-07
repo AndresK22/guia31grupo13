@@ -1,13 +1,148 @@
 {
-	"html":{"body":{"parsererror":{
-				"@style":"display: block; white-space: pre; border: 2px solid #c77; padding: 0 1em 0 1em; margin: 1em; background-color: #fdd; color: black",
-				"h3":[
-					"This page contains the following errors:",
-					"Below is a rendering of the page up to the first error."
-				],
-				"div":{
-					"@style":"font-family:monospace;font-size:12px",
-					"#text":"error on line 1 at column 37: parsing XML declaration: '?&gt;' expected\n"
+	"inscripcion":{
+		"titulo":"Inscripción de Materias ",
+		"student":[
+			{
+				"@id":"1.",
+				"nombre":"Andres",
+				"apellido":"Henriquez",
+				"carnet":"HG19010",
+				"listado":{
+					"@name":"Materias",
+					"materia":[
+						{
+							"@name":"Inteligencia Artificial",
+							"codigo":{"@cod":"INA115"},
+							"teo":{
+								"@cont":"Teorico",
+								"#text":" Martes 8 p.m. "
+							},
+							"lab":{
+								"@cont":"Laboratorio",
+								"#text":" Miércoles 6 p.m. "
+							}
+						},
+						{
+							"@name":"Internet de las cosas",
+							"codigo":{"@cod":"INC115"},
+							"teo":{
+								"@cont":"Teorico",
+								"#text":" Lunes 6 p.m. "
+							},
+							"lab":{
+								"@cont":"Laboratorio",
+								"#text":" Jueves 1 p.m. "
+							}
+						},
+						{
+							"@name":"Análisis de datos",
+							"codigo":{"@cod":"AND115"},
+							"teo":{
+								"@cont":"Teorico",
+								"#text":" Viernes 8 p.m. "
+							},
+							"lab":{
+								"@cont":"Laboratorio",
+								"#text":" Sábado 8 a.m. "
+							}
+						}
+					]
 				}
-			}}}
+			},
+			{
+				"@id":"2.",
+				"nombre":"Fátima",
+				"apellido":"Valencia",
+				"carnet":"AV19012",
+				"listado":{
+					"@name":"Materias",
+					"materia":[
+						{
+							"@name":"Criptomonedas",
+							"codigo":{"@cod":"CRI115"},
+							"teo":{
+								"@cont":"Teorico",
+								"#text":" Miércoles a p.m. "
+							},
+							"lab":{
+								"@cont":"Laboratorio",
+								"#text":" Domingo 6 p.m. "
+							}
+						},
+						{
+							"@name":"Diseño web",
+							"codigo":{"@cod":"DIW115"},
+							"teo":{
+								"@cont":"Teorico",
+								"#text":" Lunes 6 p.m. "
+							},
+							"lab":{
+								"@cont":"Laboratorio",
+								"#text":" Jueves 1 p.m. "
+							}
+						},
+						{
+							"@name":"Base de datos",
+							"codigo":{"@cod":"BDD115"},
+							"teo":{
+								"@cont":"Teorico",
+								"#text":" Viernes 8 p.m. "
+							},
+							"lab":{
+								"@cont":"Laboratorio",
+								"#text":" Sábado 8 a.m. "
+							}
+						}
+					]
+				}
+			},
+			{
+				"@id":"3.",
+				"nombre":"Edwin",
+				"apellido":"Quintanilla",
+				"carnet":"BQ18002",
+				"listado":{
+					"@name":"Materias",
+					"materia":[
+						{
+							"@name":"Animación Web",
+							"codigo":{"@cod":"ANW115"},
+							"teo":{
+								"@cont":"Teorico",
+								"#text":" Martes 8 p.m. "
+							},
+							"lab":{
+								"@cont":"Laboratorio",
+								"#text":" Miércoles 6 p.m. "
+							}
+						},
+						{
+							"@name":"Robótica",
+							"codigo":{"@cod":"ROB115"},
+							"teo":{
+								"@cont":"Teorico",
+								"#text":" Lunes 6 p.m. "
+							},
+							"lab":{
+								"@cont":"Laboratorio",
+								"#text":" Jueves 11 a.m. "
+							}
+						},
+						{
+							"@name":"Teoría de Sistemas",
+							"codigo":{"@cod":"TES115"},
+							"teo":{
+								"@cont":"Teorico",
+								"#text":" Viernes 8 p.m. "
+							},
+							"lab":{
+								"@cont":"Laboratorio",
+								"#text":" Sábado 8 a.m. "
+							}
+						}
+					]
+				}
+			}
+		]
+	}
 }
